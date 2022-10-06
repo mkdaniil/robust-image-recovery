@@ -13,6 +13,8 @@ import os
 from third_party.models import *
 from third_party.utils.denoising_utils import *
 
+#edit by mkdaniil4
+
 parser = argparse.ArgumentParser(description='PyTorch Denoising')
 
 parser.add_argument("--ckpt", type=str, default="test", help="check point name")
